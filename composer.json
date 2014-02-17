@@ -1,0 +1,31 @@
+{
+    "authors": [
+        {
+            "email": "mike@php.net",
+            "name": "Michael Wallner",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Validate_AT": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Validate_AT",
+    "include-path": [
+        "./"
+    ],
+    "license": "New BSD",
+    "name": "pear/validate_at",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_AT",
+        "source": "https://github.com/pear/Validate_AT"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
